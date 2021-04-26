@@ -1,3 +1,141 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap);
+nav {
+  background-color: black;
+  height: 100px;
+}
+nav .flex-nav {
+  display: flex;
+  align-items: flex-end;
+  height: 80px;
+}
+nav .flex-nav ul {
+  display: flex;
+}
+nav .flex-nav ul a {
+  color: white;
+  text-decoration: none;
+  margin: 0 33px;
+}
+nav .flex-nav ul a i {
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.jumbo-section {
+  background-color: gold;
+  height: 500px;
+  padding: 50px 0;
+}
+.jumbo-section #logo-jumbo {
+  height: 55px;
+  margin: 20px 0;
+}
+.jumbo-section p {
+  font-size: 25px;
+}
+.jumbo-section .textstyle-jumbo {
+  margin: 20px 0;
+}
+.jumbo-section .textstyle-jumbo p, .jumbo-section .textstyle-jumbo h2 {
+  color: #ff4d88;
+  font-size: 20px;
+  font-style: italic;
+}
+.jumbo-section .btns-jumbo button {
+  font-size: 20px;
+  padding: 7px 25px;
+  border: 2px solid black;
+  background-color: transparent;
+  margin: 20px 0;
+}
+.jumbo-section .btns-jumbo #learnBtn {
+  color: white;
+  background: black;
+}
+
+main {
+  background-color: #E8E8E8;
+}
+
+.painting h2 {
+  font-weight: 400;
+  font-size: 35px;
+  text-align: center;
+  padding: 20px 0;
+}
+.painting .flex-painting {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.painting .flex-painting .flex-items {
+  flex-basis: 32%;
+  background-color: white;
+  padding-bottom: 30px;
+}
+.painting .flex-painting .flex-items .images {
+  width: 100%;
+}
+.painting .flex-painting .flex-items h3 {
+  font-weight: 400;
+  padding: 20px 25px;
+}
+.painting .flex-painting .flex-items span {
+  color: #00aaff;
+  font-style: italic;
+}
+.painting .flex-painting .flex-items a {
+  text-decoration: none;
+  color: #00aaff;
+  padding: 20px 25px;
+}
+.painting .flex-painting .flex-items p {
+  font-weight: 300;
+  padding: 20px 25px;
+}
+
+.wacom {
+  margin: 70px 0;
+  color: white;
+}
+.wacom .flex-wacom {
+  display: flex;
+}
+.wacom .flex-wacom .text-wacon {
+  flex-basis: 50%;
+}
+.wacom .flex-wacom .img-wacon {
+  flex-basis: 50%;
+}
+.wacom .flex-wacom .img-wacon img {
+  width: 100%;
+  height: 340px;
+  vertical-align: middle;
+}
+
+.bg_purple {
+  background-color: #330066;
+}
+
+.bg_grey {
+  background-color: #4d4d4d;
+}
+
+.bg_blue {
+  background-color: #0080ff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: red;
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
 }
