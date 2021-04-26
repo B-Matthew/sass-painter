@@ -130,6 +130,14 @@ main .wacom .flex-wacom .img-wacon img {
   height: 340px;
   vertical-align: middle;
 }
+main .wacom .flex-wacom .img-wacon #special-img {
+  position: absolute;
+  width: 500px;
+  left: 0;
+}
+main .wacom .flex-wacom .special {
+  position: relative;
+}
 main .bg_purple {
   background-color: #330066;
 }

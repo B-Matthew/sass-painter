@@ -141,9 +141,18 @@ main {
           height: 340px;
           vertical-align: middle;
         }
+        #special-img {
+          position: absolute;
+          width: 500px;
+          left: 0;
+        }
+      }
+      .special{
+        position: relative;
       }
     }
   }
+
   .bg_purple {
     background-color: #330066;
   }
