@@ -114,6 +114,23 @@ main {
     display: flex;
     .text-wacon {
       flex-basis: 50%;
+      padding: 60px 40px;
+      h2 {
+        font-weight: 400;
+        font-size: 30px;
+      }
+      p {
+        font-size: 20px;
+        font-weight: 300;
+        padding: $marginDefault;
+      }
+      .btn-wacom {
+        padding: $paddingBtn;
+        border: none;
+        background-color: $textWhite;
+        font-size: 20px;
+        font-weight: 300;
+      }
     }
     .img-wacon {
       flex-basis: 50%;
@@ -137,3 +154,5 @@ main {
 .bg_blue {
   background-color: #0080ff;
 }
+
+// FOOTER SECTION
