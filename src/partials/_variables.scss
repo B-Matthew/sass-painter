@@ -3,9 +3,15 @@ $noUnderLine: none;
 $paddingBtn:7px 25px;
 $marginDefault: 20px 0;
 $paddingDeafult: 20px 25px;
+$lightWieght: 300;
 
 @mixin textstyle {
   color: #ff4d88;
   font-size: 20px;
   font-style: italic;
+}
+
+@mixin flexStyle {
+  display: flex;
+  justify-content: space-between;
 }

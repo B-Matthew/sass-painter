@@ -22,7 +22,8 @@ nav .flex-nav ul a i {
 }
 
 .jumbo-section {
-  background-color: gold;
+  background-image: url("img/bg-painter-home.jpg");
+  background-size: cover;
   height: 500px;
   padding: 50px 0;
 }
@@ -47,6 +48,7 @@ nav .flex-nav ul a i {
   border: 2px solid black;
   background-color: transparent;
   margin: 20px 0;
+  cursor: pointer;
 }
 .jumbo-section .btns-jumbo #learnBtn {
   color: white;
@@ -56,90 +58,139 @@ nav .flex-nav ul a i {
 main {
   background-color: #E8E8E8;
 }
-
-.painting h2 {
+main .painting h2 {
   font-weight: 400;
   font-size: 35px;
   text-align: center;
   padding: 20px 0;
 }
-.painting .flex-painting {
+main .painting .flex-painting {
   display: flex;
   justify-content: space-between;
   margin: 20px 0;
 }
-.painting .flex-painting .flex-items {
+main .painting .flex-painting .flex-items {
   flex-basis: 32%;
   background-color: white;
   padding-bottom: 30px;
 }
-.painting .flex-painting .flex-items .images {
+main .painting .flex-painting .flex-items .images {
   width: 100%;
 }
-.painting .flex-painting .flex-items h3 {
+main .painting .flex-painting .flex-items h3 {
   font-weight: 400;
   padding: 20px 25px;
 }
-.painting .flex-painting .flex-items span {
+main .painting .flex-painting .flex-items span {
   color: #00aaff;
   font-style: italic;
 }
-.painting .flex-painting .flex-items a {
+main .painting .flex-painting .flex-items a {
   text-decoration: none;
   color: #00aaff;
   padding: 20px 25px;
 }
-.painting .flex-painting .flex-items p {
+main .painting .flex-painting .flex-items p {
   font-weight: 300;
   padding: 20px 25px;
 }
-
-.wacom {
-  margin: 70px 0;
+main .wacom {
+  margin-top: 70px;
   color: white;
 }
-.wacom .flex-wacom {
+main .wacom .flex-wacom {
   display: flex;
 }
-.wacom .flex-wacom .text-wacon {
+main .wacom .flex-wacom .text-wacon {
   flex-basis: 50%;
   padding: 60px 40px;
 }
-.wacom .flex-wacom .text-wacon h2 {
+main .wacom .flex-wacom .text-wacon h2 {
   font-weight: 400;
   font-size: 30px;
 }
-.wacom .flex-wacom .text-wacon p {
+main .wacom .flex-wacom .text-wacon p {
   font-size: 20px;
   font-weight: 300;
   padding: 20px 0;
 }
-.wacom .flex-wacom .text-wacon .btn-wacom {
+main .wacom .flex-wacom .text-wacon .btn-wacom {
   padding: 7px 25px;
   border: none;
   background-color: white;
   font-size: 20px;
   font-weight: 300;
+  cursor: pointer;
 }
-.wacom .flex-wacom .img-wacon {
+main .wacom .flex-wacom .img-wacon {
   flex-basis: 50%;
 }
-.wacom .flex-wacom .img-wacon img {
+main .wacom .flex-wacom .img-wacon img {
   width: 100%;
   height: 340px;
   vertical-align: middle;
 }
-
-.bg_purple {
+main .bg_purple {
   background-color: #330066;
 }
-
-.bg_grey {
+main .bg_grey {
   background-color: #4d4d4d;
 }
-
-.bg_blue {
+main .bg_blue {
   background-color: #0080ff;
+}
+
+.footer-top {
+  background-color: whitesmoke;
+  padding-top: 30px;
+}
+.footer-top .flex-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-top .flex-footer ul h3 {
+  font-weight: 300;
+  padding: 20px 25px;
+}
+.footer-top .flex-footer ul li {
+  list-style-type: none;
+  padding: 15px 25px;
+  font-weight: 300;
+  font-size: 15px;
+}
+.footer-top .icon-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+.footer-top .icon-footer i {
+  font-size: 30px;
+  margin: 20px 5px;
+}
+
+.footer-bot {
+  background-color: #333333;
+}
+.footer-bot .flex-footer {
+  color: white;
+  padding: 20px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-bot .flex-footer img {
+  margin: 0 5px;
+}
+.footer-bot .flex-footer ul {
+  list-style-type: none;
+  display: flex;
+}
+.footer-bot .flex-footer ul li {
+  margin: 0 5px;
+  font-size: 12px;
+}
+.footer-bot .flex-footer ul li a {
+  color: grey;
+  text-decoration: none;
 }
 
 * {
